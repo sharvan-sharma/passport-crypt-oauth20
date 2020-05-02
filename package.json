@@ -1,0 +1,30 @@
+{
+  "name": "passport-crypt-oauth20",
+  "version": "1.0.0",
+  "description": "Passport Strategy for CryPt OAuth2.0 Server",
+  "main": "./lib",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharvan-sharma/passport-crypt-oauth20.git"
+  },
+  "keywords": [
+    "crypt-oauth20",
+    "crypt",
+    "oauth",
+    "passport",
+    "authentication",
+    "identity"
+  ],
+  "author": "Sharvan Sharma <crypt.oauth.service@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sharvan-sharma/passport-crypt-oauth20/issues"
+  },
+  "homepage": "https://github.com/sharvan-sharma/passport-crypt-oauth20#readme",
+  "dependencies": {
+    "passport-oauth2": "1.x.x"
+  }
+}
