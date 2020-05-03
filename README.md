@@ -28,8 +28,8 @@ The CryPt authentication strategy authenticates users using a CryPt account and 
 const CryPtStrategy = require('passport-crypt-oauth20')
 
 passport.use(new CryPtStrategy({
-         clientID: CONSUMER'S_CLIENT_ID,
-         clientSecret: CONSUMER'S_CLIENT_SECRET,
+         clientID: CONSUMER_CLIENT_ID,
+         clientSecret: CONSUMER_CLIENT_SECRET,
          callbackURL: 'http://example.com/crypt/oauth/callback',
          scope:'profile'
        },
