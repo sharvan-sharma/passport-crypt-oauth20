@@ -1,22 +1,16 @@
 # passport-crypt-oauth20
 
----
-
 [Passport](http://www.passportjs.org/) strategy for authenticating with [CryPt](https://crypt-oauth.web.app) using the OAuth 2.0 API.
 
 This module lets you authenticate using CryPt in your Node.js applications.
 
 ## Install
 
----
-
 ```
 $ npm install passport-crypt-oauth20
 ```
 
 ## Usage
-
----
 
 ### Create An Application
 
