@@ -1,6 +1,6 @@
 {
   "name": "passport-crypt-oauth20",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Passport Strategy for CryPt OAuth2.0 Server",
   "main": "./lib",
   "scripts": {
