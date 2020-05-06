@@ -24,7 +24,7 @@ Before using ```passport-crypt-oauth20```, you must register an application with
 
 The CryPt authentication strategy authenticates users using a CryPt account and OAuth 2.0 tokens. The client ID and secret obtained when creating an application are supplied as options when creating the strategy. The strategy also requires a ```verify``` callback, which receives the access token and optional refresh token, as well as ```profile``` which contains the authenticated user's CryPt profile. The ```verify``` callback must call ```cb``` (done is used as cb in following code snippet) providing a user to complete authentication.
 
-```JavaScript
+```javascript
 const CryPtStrategy = require('passport-crypt-oauth20')
 
 passport.use(new CryPtStrategy({
@@ -58,7 +58,7 @@ Use ```passport.authenticate()```, specifying the 'crypt' strategy, to authentic
 
 For example, as route middleware in an [Express](expressjs.com) application:
 
-```JavaScript
+```javascript
 app.get('/crypt/oauth/login',passport.authenticate('crypt'))
 
 app.get('/crypt/oauth/callback', 
